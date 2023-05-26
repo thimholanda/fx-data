@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 156 156" style="enable-background:new 0 0 156 156;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#FFFFFF;stroke-width:2.6401;stroke-miterlimit:8;}
+</style>
+<g>
+	<g>
+		<defs>
+			<path id="SVGID_1_" d="M1.6,26C1.6,11.9,13,0.5,27,0.5H129c14.1,0,25.5,11.4,25.5,25.5V130c0,14.1-11.4,25.5-25.5,25.5H27
+				C13,155.5,1.6,144.1,1.6,130V26z"/>
+		</defs>
+		
+			<linearGradient id="SVGID_00000013186873095457251020000014894837011962847127_" gradientUnits="userSpaceOnUse" x1="23.4391" y1="12.9466" x2="148.153" y2="161.6439">
+			<stop  offset="0" style="stop-color:#20A4DC"/>
+			<stop  offset="6.893140e-02" style="stop-color:#30ACE0"/>
+			<stop  offset="0.2299" style="stop-color:#51BCE7"/>
+			<stop  offset="0.3966" style="stop-color:#6AC9ED"/>
+			<stop  offset="0.5692" style="stop-color:#7CD2F1"/>
+			<stop  offset="0.7515" style="stop-color:#87D7F3"/>
+			<stop  offset="0.9595" style="stop-color:#8AD9F4"/>
+		</linearGradient>
+		
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_00000013186873095457251020000014894837011962847127_);"/>
+		<clipPath id="SVGID_00000046327169420965639800000008293164930766630024_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+	</g>
+	<line class="st0" x1="77.1" y1="20.8" x2="77.1" y2="40.2"/>
+	<line class="st0" x1="40.2" y1="34.9" x2="54.2" y2="49"/>
+	<line class="st0" x1="24.3" y1="73.6" x2="43.7" y2="73.6"/>
+	<line class="st0" x1="40.2" y1="112.3" x2="54.2" y2="98.2"/>
+	<line class="st0" x1="115.8" y1="112.3" x2="101.8" y2="98.2"/>
+	<line class="st0" x1="131.7" y1="73.6" x2="112.3" y2="73.6"/>
+	<line class="st0" x1="115.8" y1="34.9" x2="101.8" y2="49"/>
+	<polyline class="st0" points="87.7,128.2 85.3,128.2 82.8,129.9 78,129.9 73.2,129.9 70.7,128.2 68.3,128.2 	"/>
+	<line class="st0" x1="63" y1="112.3" x2="93" y2="112.3"/>
+	<line class="st0" x1="64.8" y1="121.1" x2="89.4" y2="121.1"/>
+	<line class="st0" x1="61.3" y1="33.1" x2="64.8" y2="41.9"/>
+	<line class="st0" x1="36.6" y1="57.8" x2="45.4" y2="61.3"/>
+	<line class="st0" x1="36.6" y1="91.2" x2="45.4" y2="87.7"/>
+	<line class="st0" x1="119.4" y1="91.2" x2="108.8" y2="87.7"/>
+	<line class="st0" x1="119.4" y1="57.8" x2="108.8" y2="61.3"/>
+	<line class="st0" x1="94.7" y1="33.1" x2="91.2" y2="41.9"/>
+	<polygon class="st0" points="83,74 83.3,57.8 63,81.3 73,81.3 73,98.2 93,74 	"/>
+	<path class="st0" d="M92.8,108.8v-5.1c-0.3-4,1.1-8,3.9-11c5.3-4.6,8.5-11.3,8.5-18.3c0-15-12.2-27.1-27.3-27.1
+		c-15.1,0-27.3,12.1-27.3,27.1c0.1,7,3.2,13.7,8.5,18.3c2.7,3,4.1,7,3.9,11v5.1"/>
+</g>
+</svg>

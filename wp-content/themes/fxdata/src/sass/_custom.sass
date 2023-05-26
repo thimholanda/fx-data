@@ -1,0 +1,276 @@
+.btn-white
+    background: white
+    border: white
+    color: color('blue-500')
+    transition: opacity .3s
+
+    &:hover
+        background-color: white
+        border: white
+        opacity: .7
+        color: color('blue-500')
+
+.bg-square-product-base
+    transform: scale(1.15) !important
+
+.bg-gradient-blue
+    background: rgb(32,32,67)
+    background: linear-gradient(274deg, rgba(32,32,67,1) 0%, rgba(0,212,255,1) 100%)
+
+.bg-gradient-blue-mobile
+    background: rgb(32,32,67)
+    background: linear-gradient(300deg, rgba(32,32,67,1) 0%, rgba(0,212,255,1) 100%)
+
+.bg-main-banner
+    min-width: 1300px
+
+.bg-gray-900
+    background-color: color('gray-900') !important
+
+.left-center
+    left: 50% !important
+    transform: translateX(-50%)
+
+.center-center
+    left: 50% !important
+    top: 50% !important
+    transform: translate(-50%,-50%)
+
+.text-blue-900
+    color: color('blue-900')
+
+.text-blue-500
+    color: color('blue-500')
+
+.text-gray-500
+    color: color('gray-500')
+
+.dropdown-menu
+    transition: all .3s
+
+.border-blue-500
+    border-color: color('blue-500') !important
+
+.border-blue-900
+    border-color: color('blue-900') !important
+
+.container-features-blue
+    &::after
+        content: ''
+        width: 100%
+        height: 100%
+        border: 2px solid color('blue-500')
+        display: block
+        position: absolute
+        left: 15px
+        top: 15px
+        z-index: -1
+        border-radius: 30px
+
+.fx-features-slider .slick-track
+    display: flex
+
+.fx-features-slider .slick-track .slick-slide
+    display: flex
+    height: auto
+
+.fx-testomonials-slider .slick-track
+    display: flex
+
+.fx-testomonials-slider .slick-track .slick-slide
+    display: flex
+    height: auto
+
+.navbar
+    .nav-item
+        a
+            color: color('blue-500') !important
+            font-weight: 500
+            transition: opacity .3s
+
+            &:hover
+                opacity: .5
+
+        .active
+            color: color('blue-900') !important
+
+    .navbar-nav-social
+        flex-direction: row !important
+        justify-content: center
+
+    .nav-item-social
+        flex-direction: row
+
+        a
+            color: color('blue-900') !important
+            font-size: 1.3rem
+            width: 40px
+            height: 40px
+            line-height: 20px
+            text-align: center
+            position: relative
+            transition: opacity .3s
+
+            &:hover
+                opacity: .5
+
+        & + .nav-item-social
+            a
+                // border-left: 1px solid gray !important
+
+                &::before
+                    content: ''
+                    display: block
+                    width: 1px
+                    height: 20px
+                    background: gray
+                    position: absolute
+                    top: 50%
+                    transform: translateY(45%)
+                    left: 0
+                    top: 0
+
+.product-feature-container-icon
+    width: 90px
+    height: 90px
+    border-radius: 15px
+    background: white
+    position: relative
+
+    .product-feature-number
+        width: 32px
+        height: 32px
+        border-radius: 5px
+        position: absolute
+        left: -10px
+        top: -10px
+        border: 1px solid white
+        background: color('blue-500')
+        color: white
+        text-align: center
+        line-height: 28px
+        font-weight: bolder
+        font-size: 1.3rem
+
+.transition-all
+    transition: all .3s
+
+.hover-blue-500:hover
+    color: color('blue-500')
+
+.hover-opacity
+    transition: all .3s
+
+    &:hover
+        opacity: .3
+
+.gradient-top-down
+    width: 100%
+    height: 50px
+    background: rgb(0,0,0)
+    background: linear-gradient(180deg, rgba(0,0,0,0.1) -10%, rgba(0,0,0,0) 30%)
+    position: absolute
+    left: 0
+    top: 0
+
+.btn-link
+    font-weight: 600
+    text-decoration: none
+    color: color('blue-500')
+
+    &:hover
+        color: inherit
+
+        i
+            color: inherit
+
+.no-margin p
+    margin: 0 !important
+
+.slick-dots
+    display: flex
+    justify-content: center
+    margin: 0
+    padding: 1rem 0
+
+    list-style-type: none
+
+    li
+        margin: 0 0.25rem
+
+        button
+            display: block
+            width: 1rem
+            height: 1rem
+            padding: 0
+
+            border: none
+            border-radius: 100%
+            background-color: #bbb
+
+            text-indent: -9999px
+
+        &.slick-active button
+            background-color: color('blue-500')
+
+.navbar-brand
+    transform: scale(.8)
+
+.bg-gray-400
+    background: gray
+
+@include media-breakpoint-up(sm)
+    *
+        // color: purple
+    .fx-bg-main-banner
+        margin-bottom: 50px
+
+@include media-breakpoint-up(md)
+    *
+        // color: pink
+    .fx-bg-main-banner
+        margin-bottom: 50px
+
+@include media-breakpoint-up(lg)
+    *
+        // color: blue
+    .fx-bg-main-banner
+        margin-bottom: 50px
+
+    .fx-header-blog
+        background: url('../../public/imgs/bg-header-blog.jpg') no-repeat left bottom
+        z-index: -1
+        background-size: cover
+
+@include media-breakpoint-up(xl)
+    *
+        // color: green
+    .fx-bg-main-banner
+        margin-bottom: 9%
+
+    .fx-img-clientes
+        margin-top: -30%
+
+@include media-breakpoint-up(xxl)
+    *
+        // color: yellow
+    .fx-bg-main-banner
+        margin-bottom: 8.5%
+
+@media (min-width: 1460px)
+    *
+        // color: red
+    .fx-bg-main-banner
+        margin-bottom: 7%
+
+@media (min-width: 1600px)
+    *
+        // color: gray
+    .fx-bg-main-banner
+        margin-bottom: 15px
+
+@media (min-width: 1700px)
+    *
+        // color: black
+    .fx-bg-main-banner
+        margin-bottom: 0px

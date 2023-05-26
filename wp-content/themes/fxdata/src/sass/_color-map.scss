@@ -1,0 +1,17 @@
+$colors: (
+    "gray-500": #4c4c4c,
+    "gray-900": #333333,
+    "blue-500": #20a4dc,
+    "blue-900": #273a62
+);
+
+:root {
+    @each $name, $color in $colors{
+        --color-#{$name} : #{$color};
+    }
+        
+}
+         
+@function color($color-name){
+    @return var(--color-#{$color-name});
+}
